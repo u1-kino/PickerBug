@@ -19,7 +19,7 @@ public static class MauiProgram
 #if MACCATALYST
 				// Uncomment this handler
 				// Workaround for Picker not updating SelectedItem on Mac Catalyst 
-				handlers.AddHandler(typeof(Picker), typeof(FixPickerHandler));
+				// handlers.AddHandler(typeof(Picker), typeof(FixPickerHandler));
 #endif
 			}
 			);
